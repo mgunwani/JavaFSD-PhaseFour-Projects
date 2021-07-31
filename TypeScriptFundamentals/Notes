@@ -1,0 +1,68 @@
+
+
+JavaScript:
+
+	- A loosely typed scripting language.
+	- Vanilla JS doesn't support object-oriented features.
+
+TypeScript:
+
+	A super-set of JavaScript.
+	TypeScript is a type-support Scripting Language.
+	TypeScript support object-oriented features.
+	
+--------------------------------------------------
+
+NPM (Node Package Manager): Helps in managing the third-party modules such as install, uninstall or update the packages.
+
+	Local Packages:
+	
+		These packages installed at the application level.
+		
+		npm install package-name
+		npm uninstall package-name
+		npm update package-name
+		npm install package-name@version
+		
+		npm install 
+		npm update
+	
+	Global Packages:
+
+		These packages installed at the user level. 
+	
+		npm install package-name -g
+		npm uninstall package-name --global
+		npm update package-name --global
+		npm install package-name@version --global
+	
+		npm install typescript --global
+		
+		npm install @angular/cli@latest --global
+	
+package.json - A file that contains the meta information about your project such as name, version, author and list of dependencies that a project needs.
+
+-- To create package.json in your application folder:
+
+	npm init
+
+--------------------------------------------------
+
+
+
+TypeScript Data Types:
+
+    String
+    Boolean
+    Array
+    Tuple
+    Enum
+    Union
+    Void
+    Any
+
+Access Modifiers:
+
+    public (Default)
+    private
+    protected

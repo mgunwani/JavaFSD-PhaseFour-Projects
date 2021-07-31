@@ -1,0 +1,24 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "This is my test project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript",
+    "JavaScript",
+    "Node",
+    "NPM"
+  ],
+  "author": "Bhawna Gunwani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "request": "^2.88.2"
+  }
+}
