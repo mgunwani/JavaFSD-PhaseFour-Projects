@@ -1,0 +1,45 @@
+<h2>{{ message }}</h2>
+
+<!-- <h3>Interpolation Binding</h3>
+<p>Customer Code : {{ custObj.custCode }}</p>
+<p>Customer Name : {{ custObj.custName }}</p>
+<p>Customer Amount : {{ custObj.custAmount }}</p> -->
+
+<!-- <h3>Property Binding (Component/Model to View)</h3>
+<p>Customer Code: <input type="text" name="custCode" [value]="custObj.custCode" /></p>
+<p>Customer Name: <input type="text" name="custName" [value]="custObj.custName" /></p>
+<p>Customer Amount: <input type="text" name="custAmount" [value]="custObj.custAmount" /></p> -->
+
+<!-- <h3>Event Binding (View to Component/Model)</h3>
+<p>Customer Code: <input type="text" name="custCode" (input)="custObj.custCode=$any($event.target).value" /></p>
+<p>Customer Name: <input type="text" name="custName" (input)="custObj.custName=$any($event.target).value" /></p>
+<p>Customer Amount: <input type="text" name="custAmount" (input)="custObj.custAmount=$any($event.target).value" /></p> -->
+
+<!-- <h3>Two Way Data Binding without ngModel</h3>
+<p>Customer Code: <input type="text" name="custCode" [value]="custObj.custCode"
+        (input)="custObj.custCode=$any($event.target).value" /></p>
+<p>Customer Name: <input type="text" name="custName" [value]="custObj.custName"
+        (input)="custObj.custName=$any($event.target).value" /></p>
+<p>Customer Amount: <input type="text" name="custAmount" [value]="custObj.custAmount"
+        (input)="custObj.custAmount=$any($event.target).value" /></p> -->
+
+
+<!-- <h3>Two Way Data Binding using ngModel</h3>
+<p>Customer Code: <input type="text" name="custCode" [(ngModel)]="custObj.custCode" /></p>
+<p>Customer Name: <input type="text" name="custName" [(ngModel)]="custObj.custName" /></p>
+<p>Customer Amount: <input type="text" name="custAmount" [(ngModel)]="custObj.custAmount" /></p> -->
+
+<h3>Interpolation Binding using Instance</h3>
+<p>Customer Code : {{ customerObj1.CustomerCode }}</p>
+<p>Customer Name : {{ customerObj1.CustomerName }}</p>
+<p>Customer Amount : {{ customerObj1.CustomerAmount }}</p>
+
+<h3>Interpolation Binding using Class Type</h3>
+<p>Customer Code : {{ customerObj2.CustomerCode }}</p>
+<p>Customer Name : {{ customerObj2.CustomerName }}</p>
+<p>Customer Amount : {{ customerObj2.CustomerAmount }}</p>
+
+<h3>Interpolation Binding using Interface Type</h3>
+<p>Customer Code : {{ customerObj3.CustomerCode }}</p>
+<p>Customer Name : {{ customerObj3.CustomerName }}</p>
+<p>Customer Amount : {{ customerObj3.CustomerAmount }}</p>

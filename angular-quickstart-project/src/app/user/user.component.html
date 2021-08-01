@@ -1,0 +1,6 @@
+<p>user works!</p>
+
+<input type="text" name="username" placeholder="Enter Username" [(ngModel)]="userObj.username" />
+<input type="password" name="password" placeholder="Enter Password" [(ngModel)]="userObj.password" />
+<input type="button" value="Login" (click)="login()" />
+<p>{{ userObj.message }}</p>
