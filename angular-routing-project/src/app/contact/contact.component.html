@@ -1,0 +1,28 @@
+<h2>Contact Form</h2>
+<br />
+
+<form>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="id" placeholder="Enter Your Id" [(ngModel)]="visitor.id" />
+    </div>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="name" placeholder="Enter Your Name" [(ngModel)]="visitor.name" />
+    </div>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="contactNo" placeholder="Enter Your Contact Number"
+            [(ngModel)]="visitor.contactNo" />
+    </div>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="email" placeholder="Enter Your Email Id"
+            [(ngModel)]="visitor.email" />
+    </div>
+    <div class="mb-3">
+        <textarea name="message" class="form-control" cols="30" rows="5" placeholder="Enter Message Here"
+            [(ngModel)]="visitor.message"></textarea>
+    </div>
+    <div class="mb-3">
+        <input type="submit" (click)="onSubmit()" value="Submit" class="btn btn-success" /> |
+        <input type="reset" value="Clear Fields" class="btn btn-danger" />
+    </div>
+
+</form>

@@ -1,0 +1,50 @@
+
+Generate Angular Project:
+
+	ng new angular-routing-project
+	cd angular-routing-project
+	ng serve -o 
+	
+	Error: Cannot find module @angular-devkit/build-angular/package.json
+	
+	npm install --only==dev
+	ng serve -o
+	
+---------------------------------------
+
+Types of Web Applications:
+
+	- One Page Application
+	- Multi Page Application 
+	- Single Application
+	
+----------------------------------------
+
+Angular Routing / Single Page Application:
+
+	- Helps in Redirecting from one component to another within the application.
+	- Helps in avoiding refresh of the application every time.
+	- Configured routes gets rendered in routing placeholder.
+	- Configured routes gets cached at very execution time.
+	
+----------------------------------------
+
+	ng generate component main
+	
+	ng generate component home
+	ng generate component about
+	ng generate component contact
+	ng generate component service
+	ng generate component page-not-found
+	ng generate component employee-service
+	ng generate component customer-service
+	ng generate component customers
+	ng g class models/customer --skip-tests=true
+
+----------------------------------------
+
+1. Add RouterModule to your application.	
+2. Configure Routes in routing file.
+3. Add the configured routes to AppModule.
+
+----------------------------------------
