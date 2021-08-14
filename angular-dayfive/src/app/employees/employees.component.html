@@ -1,1 +1,20 @@
 <h3>{{title}}</h3>
+<br /><br />
+<a routerLink='/employee-add' class="btn btn-secondary">Add New Employee</a>
+<br /><br />
+<table class="table table-striped">
+    <thead>
+        <th>Employee Id</th>
+        <th>Employee Name</th>
+        <th>Employee Salary</th>
+        <th>Employee Designation</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of employees">
+            <td>{{ employee.id }}</td>
+            <td>{{ employee.name }}</td>
+            <td>{{ employee.salary }}</td>
+            <td>{{ employee.designation }}</td>
+        </tr>
+    </tbody>
+</table>

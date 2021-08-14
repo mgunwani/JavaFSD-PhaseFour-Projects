@@ -1,3 +1,4 @@
+import { Employee } from './../models/employee';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { EmployeeService } from '../services/employee.service';
@@ -10,13 +11,15 @@ import { EmployeeService } from '../services/employee.service';
 export class EmployeesComponent implements OnInit {
 
   title: string = "";
+  employees: Array<Employee> = [];
 
   constructor(private _employeeService: EmployeeService) { }
 
   ngOnInit(): void {
     this.title = this._employeeService.message;
     this._employeeService.getEmployees().subscribe(result => {
-      console.log(result);
+      this.employees = result;
+      console.log(this.employees);
     }, error => {
       console.log(error);
     })

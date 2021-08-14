@@ -1,3 +1,4 @@
+import { EmployeeAddComponent } from './employee-add/employee-add.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { UserUpdateComponent } from './user-update/user-update.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'user-add', component: UserAddComponent },
   { path: 'user-update/:id', component: UserUpdateComponent },
   { path: 'employees', component: EmployeesComponent },
+  { path: 'employee-add', component: EmployeeAddComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
